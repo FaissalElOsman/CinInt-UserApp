@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvFilmName"
+        android:text="Film name : "/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDescription"
+        android:text="Description : "/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDuration"
+        android:text="Duration : "/>
+
+    <Button
+        android:id="@+id/bPlay"
+        android:text="Play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bPause"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Pause"/>
+
+    <SeekBar
+        android:id="@+id/sbPutTimeStamp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvTimeStamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"/>
+
+    <TextView
+        android:id="@+id/tvMinimalRTT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MinimalRTT = "/>
+
+    <Button
+        android:id="@+id/bSynchronize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Synchronize !!"/>
+
+    <Button
+        android:id="@+id/bReturn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Return back to the previous view"/>
+
+    <Button
+        android:id="@+id/bExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exit"/>
+
+</LinearLayout>
